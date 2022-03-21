@@ -1,0 +1,122 @@
+:root {
+    --purple: #51007a;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#viewHighScore {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+a {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#timesUp {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.container {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    border: 4px solid var(--purple);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.opening-p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#start-quiz-btn {
+    background-color: var(--purple);
+    margin-left: 33%;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#questionTitle {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.multiChoice {
+    background-color: var(--purple);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
+
+#answerCheck {
+    font-size: 20px;
+    font-style: italic;
+    color: black
+}
+
+#finalScore {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.HSbtn {
+    background-color: var(--purple);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#submitInitialBtn {
+    background-color: var(--purple);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#listOfHighScores {
+    font-size: 18px;
+}

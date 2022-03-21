@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div>
+            <a href="#" id="viewHighScore">View High Scores</a>
+        </div>
+        <div id="timer">
+            Time: <span id="timeLeft">0</span>
+        </div>
+        <div id="timesUp" style="display: none;">Time's Up!
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+              <main>
+                  <div id="start" class="m-2 justify-content-center">
+                      <h1>Coding Quiz Challenge</h1>
+                      <p class="opening-p">
+                        Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                        answers will penalize your score/time by ten seconds!
+                      </p>
+                      <button type="button" id="start-quiz-btn">Start Quiz</button>
+                  </div>
+
+                
+                  <div id="questionDiv" style="display: none;">
+                    <p id="questionTitle"></p>
+                    <div>
+                        <p><button id="btn0" class="multiChoice"></button></p>
+                        <p><button id="btn1" class="multiChoice"></button></p>
+                        <p><button id="btn2" class="multiChoice"></button></p>
+                        <p><button id="btn3" class="multiChoice"></button></p>
+                        <hr id="lineBreak" style="display: none">
+                        <p id="answerCheck" style="display: none;"></p>
+                    </div>
+                  </div>
+
+
+                    <div id="score" style="display: none;">
+
+                            <h2>Your final score is <span id="finalScore"></span>!</h2>
+                            <form>
+                                <p class="intials">Enter your initials: <input id="initialInput" type="text">
+                                <button id="submitInitialBtn">Submit</button>
+                                </p>
+                            </form>
+                    </div>
+
+
+                <div id="highScoreSection" style="display: none;">
+                    <h2>High Scores</h2>                   
+                    
+                    <div id="listOfHighScores"></div>
+                    <p>
+                        <button class="HSbtn" id="goBackBtn">Go Back</button>
+                        <button class="HSbtn" id="clearHighScoreBtn">Clear High Scores</button>
+                    </p>
+                </div>
+              </main>
+    </div>
+
+    <script src="./javascript.js"></script>
+</body>
+</html>
